@@ -1,0 +1,143 @@
+.logo{
+    height: 120px;
+}
+
+.img-responsive{
+  display: block;
+  max-width: 64%;
+  height: auto;
+}
+
+.jumbotron{
+    padding: 0px;
+}
+
+.btnpadding{
+    padding: 2px;
+    margin: 1px;
+}
+
+.btn{
+    padding: 2px;
+    box-shadow: black -2px 0px 27px -4px;
+    font-size: 13px;
+    text-align: center;
+    width: 60px;
+    overflow: hidden;
+}
+
+.btn-responsive {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.row{
+    flex-wrap: unset;
+}
+.card{
+    box-shadow: black 4px 4px 20px -4px;
+    width: 20rem;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+.container{
+    /*background-image: url("images/background.jpg");*/
+    margin-left: 25%;
+    max-width: 65%;
+}
+
+
+    .navbar-nav .dropdown-menu {
+        position: static;
+        float: none;
+        width: 25%;
+        padding: 0;
+        margin-left: 5%;
+    }
+
+    .navbar .navbar-toggler {
+        position: absolute;
+        margin-left: 5px;
+    }
+
+    .navbar .nav-link {
+        padding: 1.2rem 1rem;
+        padding-left: 1.2rem;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: 1.2rem;
+    }
+
+    .navbar-nav {
+        display: block;
+    }
+
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: static;
+    }
+
+    .navbar {
+        position: absolute;
+        display: block;
+        padding: 0;
+        width: max-content;
+        height: 100%;
+        position: absolute;
+    }
+
+    .navbar a {
+        color: #fbf9f9;
+        border-bottom: 1px solid #bbc7d4;
+    }
+
+    .navbar a:hover {
+        color: green;
+        background-color: #3858581f;
+    }
+
+    .navbar .last-drop {
+        border-bottom: none;
+    }
+
+    #topbar {
+        background-color: #d0b7b773;
+        height: 100px;
+    }
+
+    #formsspace {
+        background-color: #715a5a3b;
+        height: 500px;
+    }
+
+    .bg-light {
+    background-color: #54585d!important;
+}
+
+.card-body h3{
+    font-size: 1.4rem;
+    margin-left: -11px;
+    margin-top: -14px;
+    margin-bottom: 22px;
+}
+
+
+
+  /*--------------media query for toggler ------------*/
+
+    @media screen and (max-width: 768px) {
+
+        .navbar #toplist {
+            margin-top: 1.8rem;
+        }
+
+        .navbar-expand-md .navbar-nav .nav-link {
+            padding-left: 1.2rem;
+        }
+
+    }
+
+
+  
+ 
